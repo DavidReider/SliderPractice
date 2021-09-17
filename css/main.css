@@ -1,0 +1,22 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.ex1 .swiper-slide{
+    background-color: rgb(252, 218, 155);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.ex2{
+    margin-top: 30px;
+}
+
+.ex2 .swiper-slide{
+    background-color: rgb(155, 252, 195);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
