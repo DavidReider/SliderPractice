@@ -20,3 +20,15 @@
     justify-content: center;
     margin: auto;
 }
+
+.ex3{
+    margin-top: 30px;
+    width: 100%
+}
+
+.ex3 .swiper-slide{
+    background-color: rgb(222, 165, 248);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
