@@ -78,3 +78,24 @@ const swiper4 = new Swiper(".ex4", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+//Initiate swiper that smooth scrolls smoothly
+const swiper5 = new Swiper(".ex5", {
+  slidesPerView: "auto",
+  direction: "horizontal",
+  spaceBetween: 0,
+  slidesPerView: 5,
+  spaceBetween: 30,
+  freeMode: true,
+  freeModeMomentum: false,
+  freeModeMomentumBounce: false,
+  speed: 10000,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: true,
+    //waitForTransition: false,
+    reverseDirection: true,
+  },
+  loop: true,
+  grabCursor: true,
+});

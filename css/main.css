@@ -43,3 +43,15 @@
   justify-content: center;
   margin: auto;
 }
+
+.ex5 {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.ex5 .swiper-slide {
+  background-color: rgb(179, 255, 251);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
